@@ -1,0 +1,172 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-12T08:11:43.400Z",
+        "line": 10,
+        "name": "Tc_1 validation of signIn Id",
+        "description": "",
+        "id": "login-to-the-amazon-page;tc-1-validation-of-signin-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24312516700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch Amazon Web Application",
+            "match": {
+              "location": "StepDefinition2.user_launch_Amazon_Web_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3907562600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter valid \"8128638748\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8128638748\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition2.user_enter_valid(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2014687500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click continue button",
+            "match": {
+              "location": "StepDefinition2.user_click_continue_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-12T08:12:13.946Z",
+        "line": 19,
+        "name": "Tc_2 validation of signIn Id",
+        "description": "",
+        "id": "login-to-the-amazon-page;tc-2-validation-of-signin-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20143487900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User launch Amazon Web Application",
+            "match": {
+              "location": "StepDefinition2.user_launch_Amazon_Web_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3773342500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter invalid \"sathyashaki2595@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sathyashaki2595@gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition2.user_enter_invalid(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2199643300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click continue button",
+            "match": {
+              "location": "StepDefinition2.user_click_continue_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-12T08:12:40.068Z",
+        "line": 29,
+        "name": "Tc_3 validation of signIn Id",
+        "description": "",
+        "id": "login-to-the-amazon-page;tc-3-validation-of-signin-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17577408000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User launch Amazon Web Application",
+            "match": {
+              "location": "StepDefinition2.user_launch_Amazon_Web_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3100543500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enter Empty \"vishaliraj@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vishaliraj@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition2.user_enter_Empty(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2637924400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click continue button",
+            "match": {
+              "location": "StepDefinition2.user_click_continue_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "login to the amazon page",
+    "description": "",
+    "id": "login-to-the-amazon-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Amazon.feature",
+    "tags": []
+  }
+]
